@@ -272,13 +272,15 @@ option{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    
 }
 .slider__title{
-    color: #f3e9e9;
+    color: #fff;
     margin-left: 65px;
     font-weight: 900;
     font-size: 40px;
-
+    font-family: 'Open Sans';
+    
     
 }
 .slider__btn{
@@ -289,7 +291,7 @@ option{
     border-radius: 8px;
     text-align: center;
     padding: 20px 20px;
-    background-color: rgb(59, 59, 249);
+    background-color: rgb(10, 10, 98);
 }
 .number{
     font-family: 'Open Sans';
