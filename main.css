@@ -25,6 +25,12 @@
     .nav__menu{
         gap: 30px;
     }
+    .menu__link{
+        font-size: 12px;
+    }
+    .slider__title{
+        font-size: 20px;
+    }
 }
 
 @media(max-width:600px) {
@@ -40,19 +46,25 @@
 
     }
     .info{
-        height: 230px;
+        height: 330px;
     }
     .info__right_link{
-        font-size: 14px;
-        gap: 0px;
+        font-size: 12px;
+        
     }
     .info__right{
-        margin-right: 50px;
-        width: 340px;
-        gap: 15px;
+        width: 300px;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
 @media(max-width:320px) {
-
+    .info__right_link{
+        font-size: 10px;
+        gap: 0px;
+    }
+    .menu__link{
+        font-size: 12px;
+    }
 }
